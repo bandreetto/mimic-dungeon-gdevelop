@@ -2953,6 +2953,33 @@
         "name": "Idle-1-2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hit-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hit-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hit-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hit-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hit-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hit-3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

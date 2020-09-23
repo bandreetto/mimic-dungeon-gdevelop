@@ -527,6 +527,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 222,
+      "layer": "",
+      "locked": false,
+      "name": "DungeonFloor",
+      "persistentUuid": "bd7d06d9-6a65-41fd-8a5c-11950c2770c2",
+      "width": 262,
+      "x": 23,
+      "y": 58,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3438,6 +3454,150 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hit-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37.9119,
+                        "y": 26.1364
+                      },
+                      {
+                        "x": 43.3665,
+                        "y": 35.2273
+                      },
+                      {
+                        "x": 39.7301,
+                        "y": 46.1364
+                      },
+                      {
+                        "x": 28.3665,
+                        "y": 46.1364
+                      },
+                      {
+                        "x": 25.6392,
+                        "y": 35.2273
+                      },
+                      {
+                        "x": 29.7301,
+                        "y": 26.1364
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hit-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37.9119,
+                        "y": 26.1364
+                      },
+                      {
+                        "x": 43.3665,
+                        "y": 35.2273
+                      },
+                      {
+                        "x": 39.7301,
+                        "y": 46.1364
+                      },
+                      {
+                        "x": 28.3665,
+                        "y": 46.1364
+                      },
+                      {
+                        "x": 25.6392,
+                        "y": 35.2273
+                      },
+                      {
+                        "x": 29.7301,
+                        "y": 26.1364
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hit-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37.9119,
+                        "y": 26.1364
+                      },
+                      {
+                        "x": 43.3665,
+                        "y": 35.2273
+                      },
+                      {
+                        "x": 39.7301,
+                        "y": 46.1364
+                      },
+                      {
+                        "x": 28.3665,
+                        "y": 46.1364
+                      },
+                      {
+                        "x": 25.6392,
+                        "y": 35.2273
+                      },
+                      {
+                        "x": 29.7301,
+                        "y": 26.1364
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4353,7 +4513,40 @@
           "subInstructions": []
         }
       ],
-      "events": []
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"RisingSlash\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Barrel",
+                "\"Hit\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     },
     {
       "disabled": false,
@@ -4421,6 +4614,37 @@
             "Player",
             "Jar",
             ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "AnimationEnded"
+          },
+          "parameters": [
+            "Barrel"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Barrel",
+            "\"Idle\""
           ],
           "subInstructions": []
         }
