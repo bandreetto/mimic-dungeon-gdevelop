@@ -3392,7 +3392,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Idle-1-1.png",
                   "points": [],
                   "originPoint": {
@@ -3406,7 +3406,34 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37.9119,
+                        "y": 26.1364
+                      },
+                      {
+                        "x": 43.3665,
+                        "y": 35.2273
+                      },
+                      {
+                        "x": 39.7301,
+                        "y": 46.1364
+                      },
+                      {
+                        "x": 28.3665,
+                        "y": 46.1364
+                      },
+                      {
+                        "x": 25.6392,
+                        "y": 35.2273
+                      },
+                      {
+                        "x": 29.7301,
+                        "y": 26.1364
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3431,7 +3458,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Idle-1-0.png",
                   "points": [],
                   "originPoint": {
@@ -3445,7 +3472,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24.5052,
+                        "y": 25.625
+                      },
+                      {
+                        "x": 40.7552,
+                        "y": 26.4583
+                      },
+                      {
+                        "x": 40.7552,
+                        "y": 38.125
+                      },
+                      {
+                        "x": 24.9219,
+                        "y": 38.5417
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3470,7 +3516,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Idle-1-2.png",
                   "points": [],
                   "originPoint": {
@@ -3484,7 +3530,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 27.0012,
+                        "y": 40.9615
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3509,7 +3574,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "NewObject-1.png",
                   "points": [],
                   "originPoint": {
@@ -3523,7 +3588,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 26.1719,
+                        "y": 25.2083
+                      },
+                      {
+                        "x": 42.0052,
+                        "y": 24.7917
+                      },
+                      {
+                        "x": 42.8385,
+                        "y": 45.625
+                      },
+                      {
+                        "x": 25.7552,
+                        "y": 46.0417
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3771,14 +3855,6 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -4201,6 +4277,150 @@
             "Player",
             "DungeonBottomRightBorder",
             "no"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Chest",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Chest",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Barrel",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Barrel",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Box",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Box",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Jar",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Jar",
+            ""
           ],
           "subInstructions": []
         }
