@@ -2629,6 +2629,276 @@
         "name": "dungeon-tile-260.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RisingSlash-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RisingSlash-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DiagonalSlash-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DiagonalSlash-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HorizontalSlash-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HorizontalSlash-10.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
